@@ -381,7 +381,62 @@ max-width:100%;
     max-width: 20rem;
     
 }
+/* LATEST PROJECT */
+.latest__proj{
+    padding: 5rem 0;
+}
+.proj__title{
+    text-align: center;
+}
+.proj__title h3{
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.proj__title p{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.proj__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+}
+.proj__card{
+    background-color: transparent;
+    background-image:url(img/green-leaves.jpg);
+    filter:brightness(80%);
+    background-repeat:no-repeat;
+    padding-top: 20rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.proj__card h4{
+    color:black;
+    font-size: 5rem;
+    font-weight:bolder;
+    margin-bottom:5rem;
+    text-align: center;
+}
+.proj__card p{
+    font-weight:300;
+    max-width: 20rem;
+    margin-bottom:2rem;;
+}
+.proj__card a{
+    margin-bottom:2rem ;
+    border-radius: 1rem;
+}
+.proj__card a:hover{
+    background-color: var(--green);
+    transition: .5s ease-in-out;
+}
 
 
 
